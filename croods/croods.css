@@ -1,0 +1,466 @@
+/* CSS RESET */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
+body {line-height:1;}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {display:block;}
+li{list-style:none;}
+a {margin: 0; padding: 0; border: 0; vertical-align: baseline; background: transparent; text-decoration: none;}
+
+body {
+    font-family: “Noto sans”, “Nanum Gothic”, “나눔고딕”, Helvetica, sans-serif, "Impact",;
+    background-color: #3361d8;
+    line-height: 1;
+    
+
+}
+
+html,body {
+    height: 100%;
+}
+
+.clearfixafter:after {
+    content: "";
+    display: block;
+    clear: both; 
+}
+
+
+
+
+
+header {
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 999;
+    
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+header nav {
+    margin: 0 auto;
+}
+
+
+header ul {
+    text-align: center;
+}
+
+
+header ul li {
+    display: inline-block;
+    margin: 28px 50px;
+}
+
+
+header ul li a {
+    font-size: 14px;
+    color: rgba(255,255,255,255);
+}
+
+
+header ul li a:hover{
+	color: rgba(255,255,255,0.2);
+}
+
+
+
+
+
+
+
+.title_box{
+	width: 100%;
+	height: 1240px;
+	text-align: center;
+}
+
+.logo{
+	margin-top: 200px;
+}
+
+
+
+
+
+.story_box{
+	position: relative;
+	width: 100%;
+	padding-top: 230px;
+	padding-bottom: 160px;
+	text-align: center;
+	background-color: #f25959;
+
+}
+
+.story_title{
+	
+	font-family: Impact;
+	font-size: 70px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+}
+
+.story_txt{
+	padding-top: 60px;
+	font-size: 16px;
+	color: rgba(255,255,255,0.8);
+	letter-spacing: 0.025em;
+	line-height: 24.7px;
+}
+
+.story_more{
+	display: inline-block;
+	margin-top: 68px;
+	padding: 15px 30px;
+	font-size: 16px;
+	color: #ffffff;
+	border:1px solid #ffffff;
+	border-radius: 3px;
+}
+
+.story_more:hover{
+	opacity: 0.5;
+}
+
+.story_img{
+	position: absolute;
+	top:320px;
+	right: 15px;
+}
+
+
+
+
+.trailer_box{
+	position: relative;
+	
+	width: 100%;
+	text-align: center;
+	height: 970px;
+	background-color: #6f2ddc;
+}
+
+.trailer_box > p{
+	font-family: Impact;
+	font-size: 50px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	padding-top: 150px;
+}
+
+.move{
+	position: absolute;
+	z-index: 11;
+	width: 100%;
+	top: 225px;
+}
+
+.move > iframe{
+	border: 5px solid #ffffff;
+	border-radius: 5px;
+}
+
+.trailer{
+	text-align: center;
+}
+
+.trailer_01{
+	position: absolute;
+	top:-280px;
+	left: 25px;
+	z-index: 11;
+}
+
+.trailer_02{
+	position: absolute;
+	bottom: 155px;
+	right: 20px;
+	z-index: 9;
+}
+
+
+
+
+.character_box{
+	position: relative; 
+	width: 100%;
+	background-color:rgba(0,0,0,0.2);
+	padding: 80px 0 50px 0;
+}
+
+.croods_img{
+	margin-right: 0;
+}
+
+.character_title_box{
+	display: inline-block;
+	width: 490px;
+	margin: 0 0 0 305px;
+}
+
+.character_title{
+	display: inline-block;
+	font-family: Impact;
+	font-size: 50px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	
+}
+
+.character_txt{
+	display: inline-block;
+	font-size: 18px;
+	color: rgba(255,255,255,0.8);
+	margin-top: 30px;
+}
+
+.character_more{
+	display: inline-block;
+	padding: 14px 25px;
+	font-size: 16px;
+	color: #ffffff;
+	border:1px solid #ffffff;
+	border-radius: 3px;
+	margin-top: 30px;
+}
+
+.character_more:hover{
+	opacity: 0.5;
+}
+
+
+.character_img_box{
+	display: inline-block;
+}
+
+.character_img_box > img{
+	margin: 30px 5px 0 0;
+}
+
+.croods_img{
+	position: absolute;
+	right: 80px;
+	bottom: 0;
+}
+
+
+
+
+.people_box{
+	width: 100%;
+	margin-top:20px;
+}
+
+.people_box ul{
+	text-align: center;
+}
+
+.people_box ul li{
+	margin: 0 5px;
+	display: inline-block;
+}
+
+
+
+
+
+.episode{
+	text-align: center;
+	font-family: Impact;
+	font-size: 50px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	margin-top: 150px;
+}
+
+
+.episode_box{
+	position: absolute;
+	width: 100%;
+	top: -244px;
+	z-index: 20;
+}
+
+.episode_box ul{
+	text-align: center;
+}
+
+.episode_box ul li{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+
+
+
+
+.epi_wapper{
+	position: absolute;
+	width: 320px;
+	top: 275px;
+}
+
+.episode_title{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.episode_btn{
+	margin-top: 23px;
+	color: #ffa200;
+	display: inline-block;
+	padding: 10px 12px;
+	border: 1px solid #ffa200;
+	border-radius: 3px;
+}
+
+.episode_btn:hover{
+	opacity: 0.2;
+}
+
+
+
+.cat{
+	position: absolute;
+	top: -60px;
+	right: 60px;
+	z-index: 19;
+}
+
+.fox{
+	position: absolute;
+	top: 70px;
+	left: 18px;
+	z-index: 21;	
+}
+
+.footer_box{
+	position: relative;
+	width: 100%;
+	margin-top: 270px;
+	height: 540px;
+	background-color: #ffa200;
+}
+
+
+.footer_wapper{
+	width: 100%;
+	display: inline-block;
+	margin-top: 390px;
+}
+
+.footer_txt_box{
+	position: relative;
+	width: 620px;
+	margin: 0 auto;
+}
+.txt_1{
+	display: inline-block;
+	font-size: 52px;
+	color: #ffffff;
+	font-weight: 800;
+	letter-spacing: 0.027em;
+}
+
+.txt_2{
+	display: inline-block;
+	font-size: 123px;
+	color: #ffffff;
+	font-weight: 800;
+	letter-spacing: -0.025em;
+}
+
+.txt_3{
+	position: absolute;
+	right: 0;
+	top: 55px;
+	
+	display: inline-block;
+	font-size: 45px;
+	color: #ffffff;
+	font-weight: 800;
+}
+
+
+
+
+
+
+footer {
+	position: relative;
+    float: left;
+    width: 100%;
+	height: 580px;
+    background-color: #ffa200;
+}
+
+footer > .footer_back_img{
+	position: absolute;
+	bottom: 0;
+}
+
+
+.footer_menu_box{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	padding: 10px 0;
+	border-top: 1px solid #ffffff;
+}
+
+.footer-wrapper {
+    width: 840px;
+    margin: 0 auto;
+}
+
+
+.follow-img a {
+    float: left;
+   margin: 5px 10px 0 10px;
+}
+
+.follow-img a:hover{
+	opacity: 0.5;
+}
+
+.footer-txt li  {
+    float: left;
+    margin: 14px 10px 0px 10px;
+}
+
+.footer-txt li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.footer-txt li a:hover{
+	opacity: 0.5;
+}
+
+.footer-txt .footer-txt-1  {
+    border-left: solid 2px #fff;
+    padding: 0 20px;
+}
+
+
+.footer-txt-1, .footer-txt-2, .footer-txt-3  {
+    border-right: solid 2px #fff;
+    padding: 0 20px 0 0px;
+    
+}
+
